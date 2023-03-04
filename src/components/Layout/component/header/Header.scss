@@ -1,0 +1,115 @@
+.header {
+    position: relative;
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 352px;
+    background-image: url(../../../../../src/assets/image/background/background.jpg);
+}
+
+
+.header_container {
+    position: fixed;
+    background-color: var(--background-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 88px;
+    
+}
+.section_content {
+    position: relative;
+    top: 0;
+    background-color: var(--background-color);
+    width: 1280px;
+    height: 88px;
+    padding: 0 40px;
+}
+.header_inner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+    height: 88px;
+    padding: 0 40;
+    
+}
+
+.header_logo {
+    position: absolute;
+    left: 0;
+    .logo{
+
+    }
+}
+
+.header_btn {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    :hover {
+        cursor: pointer;
+    }
+
+    .cart-btn__wrapper,
+    .login-btn__wrapper,
+    .language__wrapper {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        border: 1px solid #f0efef;
+        border-radius: 4px;
+        margin: 0 6px;
+        
+        .cart-btn {
+            .cart-icon {
+                height: 16px;
+                width: 16px;
+            }
+        }
+    }
+
+    .cart-btn__wrapper {
+        width: 42px;
+    }
+
+    .login-btn {
+        padding: 0 12px;
+        text-decoration: none;
+        color: var(--icon-color);
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+
+    .language__wrapper {
+        width: 50px;
+        margin: 0;
+        margin-left: 6px;
+        padding: 0 8px;
+
+        .language_code{
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+
+        .drop_down{
+            height: 16px;
+            width: 16px;
+            margin-left: 4px;
+
+            .dss{
+                width: 10px;
+                height: 10px;
+                font-size: 1px;
+            }
+        }
+    }
+}
+
+
