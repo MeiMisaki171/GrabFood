@@ -1,0 +1,38 @@
+.fooditem {
+    position: relative;
+    display: flex;
+    z-index: 3;
+    padding-top: 48px;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+
+    .fooditem-container {
+        position: relative;
+        display: flex;
+        min-width: 992px;
+        height: 96px;
+        padding: 0 40px;
+
+        .fooditem-heading__wrapper {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 100%;
+
+            .fooditem-heading{
+                margin-bottom: 48px;
+                height: 48px;
+
+                .green-text{
+                    color: #00b14f;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+

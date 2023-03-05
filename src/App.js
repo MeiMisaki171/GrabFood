@@ -18,7 +18,7 @@ const App = () => {
                 key = {route.id}
                 path = {route.path}
                 element={
-                    <Page />
+                  <Page />
                 }
               />
             )

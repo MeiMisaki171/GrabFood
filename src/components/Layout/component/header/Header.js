@@ -16,8 +16,7 @@ const Header = ({ className }) => {
       <div className='header'>
         <div className='header_container'>
           <div className='section_content'>
-            <div className="header_inner">
-              
+            <div className="header_inner">             
 
               <Link to='/' className="header_logo" >   
                     <img src={Logo} alt='logo' className='logo'></img>                
@@ -41,7 +40,6 @@ const Header = ({ className }) => {
                   </div>
                 </div>
               </div>
-          
             </div>
           </div>
         </div>

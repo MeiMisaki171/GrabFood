@@ -1,15 +1,15 @@
 
-import './Body.scss';
-import background from '../../../../../src/assets/image/background/background.jpg';
+import FoodItem from './component/FoodItem/FoodItem'
+import HeaderBackground from './component/HeaderBackground/HeaderBackground'
+import './Body.scss'
 
-
-const Body = () => {
+const Body = ({className}) => {
   return (
-    <Body>
-      <div className='background-body'>
-          <img src={background} alt='background' className='hj'></img>
-      </div>
-    </Body>
+  <body className={className} >
+    <HeaderBackground />
+    <div className='background-border'></div>
+    <FoodItem className={'food-item'}/>
+  </body>
   )
 }
 
