@@ -1,10 +1,9 @@
 .header {
     position: relative;
     display: flex;
-    background-color: black;
+    background-color: var(--background-color);
     width: 100%;
-    height: 352px;
-    background-image: url(../../../../../src/assets/image/background/background.jpg);
+    z-index: 2;
 }
 
 
@@ -40,6 +39,7 @@
 .header_logo {
     position: absolute;
     left: 0;
+    
     .logo{
 
     }
@@ -79,12 +79,15 @@
         width: 42px;
     }
 
-    .login-btn {
-        padding: 0 12px;
+    .login-btn__wrapper {
         text-decoration: none;
-        color: var(--icon-color);
-        font-size: 1.3rem;
-        font-weight: 600;
+
+        .login-btn {
+            padding: 0 12px;
+            color: var(--icon-color);
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
     }
 
     .language__wrapper {

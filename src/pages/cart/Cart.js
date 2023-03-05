@@ -1,8 +1,12 @@
 import "./cart.scss"
+import Header from "../../components/Layout/component/Header/Header";
+
 
 const Cart = () => {
   return (
-    <div>cart</div>
+    <>
+      <Header className={'header-cart'}/>
+    </>
   )
 }
 

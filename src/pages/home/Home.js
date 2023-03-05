@@ -1,12 +1,18 @@
-import background from '../../assets/image/background/background.jpg';
+
 import './home.scss'
+import Header from '../../components/Layout/component/Header/Header'
+import Search from '../../components/Layout/component/Search/Search'
+import Body from '../../components/Layout/component/Body/Body'
 
 const Home = () => {
   return (
-    <div>
-      <img src={background.jpg} alt='s'></img>
-    </div>
+    <>
+      <Header className='header_home' />
+      <Search className={'search'} />  
+      <Body />
+    </>
   )
 }
 
 export default Home
+ 

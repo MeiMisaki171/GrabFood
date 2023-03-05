@@ -1,15 +1,15 @@
 
 import './Body.scss';
-import b from '../../../../../src/assets/image/background/hg.webp';
+import background from '../../../../../src/assets/image/background/background.jpg';
 
 
 const Body = () => {
   return (
-    <div>
-      <a href="/cart">
-        <img src={b} alt='k' className='hj'></img>
-        </a>
-    </div>
+    <Body>
+      <div className='background-body'>
+          <img src={background} alt='background' className='hj'></img>
+      </div>
+    </Body>
   )
 }
 

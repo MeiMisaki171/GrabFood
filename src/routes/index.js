@@ -4,11 +4,10 @@ import Cuisines from '../pages/cuisines/Cuisines'
 import Login from '../pages/login/Login'
 import Restaurants from '../pages/restaurants/Restaurants'
 import NotFound from '../pages/notFound/NotFound'
-import Layout from '../components/Layout/Layout'
 
 //Public Routes
 const publicRoutes = [
-    { path: '/', component: Home, layout: Layout, id: 1 },
+    { path: '/', component: Home, id: 1 },
     { path: '/cart', component: Cart, id:2 },
     { path: '/cuisines', component: Cuisines, id:3 },
     { path: '/login', component: Login, id:4 },
