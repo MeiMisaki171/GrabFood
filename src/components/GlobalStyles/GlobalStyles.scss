@@ -27,6 +27,10 @@ body {
     background-color: var(--background-color);
 }
 
+div {
+    display: block;
+}
+
 button, input, [tabindex] {
     border: none;
     outline: none;

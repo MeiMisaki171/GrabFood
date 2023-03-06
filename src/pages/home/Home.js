@@ -10,8 +10,8 @@ const Home = () => {
   return (
     <>
       <Header className='header_home' />
+      <Search />
       <Body/>
-      <Search className={'search'} /> 
     </>
   )
 }

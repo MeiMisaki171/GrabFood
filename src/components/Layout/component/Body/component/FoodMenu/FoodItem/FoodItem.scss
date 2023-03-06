@@ -1,0 +1,145 @@
+.foodmenu-items__container{
+    margin-top: 4px;
+    align-items: center;
+    padding-right: 12px;
+    padding-bottom: 24px;
+    width: 25%;
+}
+
+.fooditems__container {
+    color: inherit;
+    text-decoration: none;
+    outline: none;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.fooditems{
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    align-items: flex-start;
+}
+
+.fooditems-heading__wrapper {
+    
+}
+
+.fooditems-heading{
+    position: relative;
+
+    .food-image{
+        width: 100%;
+        border-radius: 8px;
+        padding-left: 2px;
+    }
+    .tag-head{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 20px;
+        top: 12px;
+        position: absolute;
+        left: -1px;
+        border-radius: 0 2px 2px 0;
+        background-color: #00b14f;
+        color: #fff;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .tag-tail{
+        position: absolute;
+        top: 32px;
+        left: -1px;
+        border-top: 3px solid #008c3f;
+        border-left: 3px solid transparent;
+        z-index: 1;
+    }
+}
+
+.fooditems-details{
+    word-wrap: break-word;
+    display: block;
+    width: 100%;
+}
+
+.fooditems-name{
+    font-size: 2rem;
+    line-height: 2;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.fooditems-info{
+
+    .fooditems-info__tag,
+    .fooditems-info__list,
+    .fooditems-rating{
+        align-items: center;
+        font-size: 16px;
+        font-weight: 400;
+        color: #676767;
+    }
+    
+    .fooditems-info__tag{
+        margin-bottom: 6px;
+    }
+
+    .fooditems-info__list{
+        display: flex;
+    }
+    
+    .fooditems-rating {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .fooditems-rating__icon{
+            width: 24px;
+            height: 24px;
+            margin-right: 8px;
+            background-image: url(../../../../../../../assets/image/icons/ratingIcon.svg);
+            
+        }
+
+    }
+
+    .fooditems-delivery {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 6%;
+        .delivery-clock {
+            width: 24px;
+            height: 24px;
+            margin-right: 8px;
+            background-image: url(../../../../../../../assets/image/icons/clockIcon.svg);
+        }
+
+        .dot-item{
+            width: 0px;
+            padding: 0 14px 0px 12px;
+        }
+    }
+
+
+.fooditems-discount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+    font-size: 15px;
+
+    .discount-icon{
+        width: 24px;
+        height: 24px;
+        margin-top: 4px;
+        margin-right: 8px;
+        background-image: url(../../../../../../../assets/image/icons/discountIcon.svg);
+    }
+    .discount-text {
+
+    }
+}

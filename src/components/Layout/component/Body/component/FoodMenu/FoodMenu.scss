@@ -1,0 +1,28 @@
+.foodmenu {
+    position: relative;
+    margin: 0;
+}
+
+.foodmenu-container{
+    position: relative;
+}
+
+.foodmenu-slide__wrapper {
+    overflow: hidden;
+}
+
+.foodmenu-slide{
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+}
+
+.foodmenu-items__wrapper {
+    transform: translate3d(0px, opx, 0px);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+

@@ -1,5 +1,15 @@
+.search {
+    position: relative;
+    display: flex;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+
 .search-container {
-    display: none;
+    display: block;
     width: 360px;
     min-height: 398px;
     position: absolute;
@@ -9,7 +19,7 @@
     padding: 48px 24px 24px;
     margin: 0 40px;
     border: 1px solid #e5e9f0;
-    z-index: 1;
+    z-index: 2;
 }
 
 
