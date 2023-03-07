@@ -2,6 +2,8 @@
 import FoodMenu from './component/FoodMenu/FoodMenu'
 import HeaderBackground from './component/HeaderBackground/HeaderBackground'
 import './Body.scss'
+import { Link } from 'react-router-dom'
+import Categories from './component/Categories/Categories'
 
 
 const Body = ({className}) => {
@@ -18,9 +20,20 @@ const Body = ({className}) => {
             <span className='green-text'>Hà Nội</span>  
           </h1>
         </div>
-          <FoodMenu className={'food-slide'} />
       </div>
     </div>
+      <FoodMenu />
+      <div className='btn'>
+        <Link
+          to={'/cuisines'}
+          className="btn-link"
+        >
+          <button className='btn-1'>See all promotions</button>
+        </Link >
+      </div>
+
+      {/* categories */}
+      <Categories />
   </body>
   )
 }

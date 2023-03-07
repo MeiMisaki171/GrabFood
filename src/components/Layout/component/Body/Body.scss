@@ -48,6 +48,36 @@
     }
 }
 
+.btn {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+
+    .btn-link{
+        padding: 0px;
+        
+
+        .btn-1{
+            width: 100%;
+            display: inline-block;
+            font-weight: 700;
+            line-height: 1,5;
+            text-align: center;
+            padding: 0 15px;
+            font-size: 14px;
+            border-radius: 6px;
+            height: 48px;
+            color: var(--icon-color);
+            background-color: #fff;
+            border: 1px solid var(--icon-color);
+            &:hover {
+                cursor: pointer;
+                color: #00b14f;
+                border: 1px solid #00b14f;
+            }
+        }
+    }
+}
 
 
 

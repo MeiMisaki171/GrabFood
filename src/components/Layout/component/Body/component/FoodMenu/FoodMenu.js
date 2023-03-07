@@ -1,26 +1,37 @@
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import "swiper/css";
+import "swiper/css/navigation";
+
+import { Navigation } from "swiper";
 
 import FoodItem from './FoodItem/FoodItem';
 import './FoodMenu.scss';
 
 
-const FoodMenu = ({className}) => {
+const FoodMenu = ({ className }) => {
+ 
   return (
-  <div className={className}>
-    <div className='foodmenu'>
-      <div className='foodmenu-container'>
-        <div className='foodmenu-slide__wrapper'>
-          <div className='foodmenu-silde'>
-            <div className='foodmenu-items__wrapper'>
-              <FoodItem />
-              <FoodItem />
-              <FoodItem />
-              <FoodItem />
-            </div>
-          </div>  
-        </div>
-      </div>
-    </div>
-  </div>
+    <>
+      <Swiper
+        slidesPerView={4}
+        spaceBetween={20}
+        navigation={true}
+        modules={[ Navigation]}
+        className="mySwiper"
+      >
+          <div className='hahadf'> djs
+            <SwiperSlide><FoodItem/></SwiperSlide>
+            <SwiperSlide><FoodItem /></SwiperSlide>
+            <SwiperSlide><FoodItem /></SwiperSlide>
+            <SwiperSlide><FoodItem /></SwiperSlide>
+            <SwiperSlide><FoodItem /></SwiperSlide>
+            <SwiperSlide><FoodItem /></SwiperSlide>
+            <SwiperSlide><FoodItem/></SwiperSlide>
+          </div>
+      </Swiper>
+    </>
+  
   )
 }
 

@@ -5,13 +5,12 @@ import foodImage from '../../../../../../../assets/image/background/foodMenuItem
 
 const FoodItem = () => {
   return (
-    <div className='foodmenu-items__container'>
         <Link
             to={'/Restaurants'}
             className='fooditems__container'
         >
             <div className='fooditems'>
-                <div className='fooditems-heading__wrapper'>
+                
                     <div className='fooditems-heading'>
                         <div className='food-image__wrapper'>
                             <img src={foodImage}
@@ -22,7 +21,7 @@ const FoodItem = () => {
                         <div className='tag-head'>Promo</div>
                         <div className='tag-tail'></div>
                     </div>
-                </div>
+                
                         
             <div className='fooditems-details'>
                 <p className='fooditems-name'>Phở Gà Ngon 47</p>
@@ -36,7 +35,7 @@ const FoodItem = () => {
                         </div>
                         <div className='fooditems-delivery'>
                             <div className='delivery-clock'></div>
-                                20 phút<li className='dot-item'></li> 0,5 km
+                                20 phút <span className='dot-item'>•</span> 0,5 km
                             </div>
                         </div>
                     </div>
@@ -49,7 +48,6 @@ const FoodItem = () => {
                 </div>                
             </div>
         </Link>
-    </div>
   )
 }
 
