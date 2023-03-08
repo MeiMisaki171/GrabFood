@@ -79,6 +79,25 @@
     }
 }
 
+.sectionContainer__wrapper {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    justify-content: center;
+}
+
+.sectionContainer {
+    position: relative;
+    padding-top: 48px;
+    padding-bottom: 28px;
+}
 
 
+.content {
+    position: relative;
+    display: flex;
+    width: 100%;
+
+}
 

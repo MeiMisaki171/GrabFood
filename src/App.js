@@ -11,7 +11,7 @@ const App = () => {
     <Router>
       <div className="App">
         <Routes>
-          {publicRoutes.map((route,id) => {
+          {publicRoutes.map((route) => {
             const Page = route.component
             return (
               <Route

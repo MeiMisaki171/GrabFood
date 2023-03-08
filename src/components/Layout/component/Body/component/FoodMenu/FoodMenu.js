@@ -20,15 +20,13 @@ const FoodMenu = ({ className }) => {
         modules={[ Navigation]}
         className="mySwiper"
       >
-          <div className='hahadf'> djs
-            <SwiperSlide><FoodItem/></SwiperSlide>
-            <SwiperSlide><FoodItem /></SwiperSlide>
-            <SwiperSlide><FoodItem /></SwiperSlide>
-            <SwiperSlide><FoodItem /></SwiperSlide>
-            <SwiperSlide><FoodItem /></SwiperSlide>
-            <SwiperSlide><FoodItem /></SwiperSlide>
-            <SwiperSlide><FoodItem/></SwiperSlide>
-          </div>
+          <SwiperSlide><FoodItem/></SwiperSlide>
+          <SwiperSlide><FoodItem /></SwiperSlide>
+          <SwiperSlide><FoodItem /></SwiperSlide>
+          <SwiperSlide><FoodItem /></SwiperSlide>
+          <SwiperSlide><FoodItem /></SwiperSlide>
+          <SwiperSlide><FoodItem /></SwiperSlide>
+          <SwiperSlide><FoodItem/></SwiperSlide>
       </Swiper>
     </>
   

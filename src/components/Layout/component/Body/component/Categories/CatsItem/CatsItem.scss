@@ -1,0 +1,121 @@
+.col12 {
+    display: block;
+    width: 50%;
+    float: left;
+    flex: 0 0 auto;
+}
+
+.col12,
+.col8,
+.col6 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 0;
+    padding-right: 0;
+   
+}
+
+.cats-item__wrapper {
+    color: #00a5cf;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cats-item__container {
+    padding: 0 6px;
+    margin-bottom: 20px;
+    
+
+}
+
+.cats-item__heading {
+    width: 100%;
+    padding-top: 56,25%;
+    
+    margin-bottom: 12px;
+}
+
+.cats-item__title{
+    display: block;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 600;
+    overflow: hidden;
+    color: var(--text-color);
+    margin-bottom: 4px;
+    height: 1.5em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    
+}
+
+.cats-item__img {
+    display: flex;
+    width: 100%;
+    border-radius: 4px;
+}
+
+@media (min-width: 768px) {
+    .sectionContainer {
+        padding-top: 48px;
+        padding-bottom: 24px;
+    }
+    .categories {
+        padding: 0 36px;
+    }
+    .categories-container__wrapper{
+        margin: 24px -8px 0;
+    }
+    .col8{
+        display: block;
+        width: (calc(1/3)*100%);
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .sectionContainer {
+        padding-top: 48px;
+        padding-bottom: 60px;
+    }
+    .categories {
+        padding: 0 40px;
+    }
+
+    .categories-container__wrapper{
+        margin: 48px -12px 0;
+    }
+    .col6{
+        display: block;
+        width: 25%;
+    }
+    .cats-item__container {
+        padding: 0 12px;
+        margin-bottom: 48px;
+    }
+    .cats-item__heading {
+        width: 100%;
+        padding-top: 56,25%;
+        border-radius: 4px;
+        margin-bottom: 16px;
+    }
+}
+
+.categories-container__wrapper {
+    display: flex;
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+.categories-container {
+    position: relative;
+    display: block;
+    height: auto;
+    margin-left: 0;
+    margin-right: -20px;
+    height: auto;
+    zoom: 1;
+    display: block;
+}

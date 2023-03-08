@@ -4,6 +4,7 @@ import HeaderBackground from './component/HeaderBackground/HeaderBackground'
 import './Body.scss'
 import { Link } from 'react-router-dom'
 import Categories from './component/Categories/Categories'
+import Seo from './component/Seo/Seo'
 
 
 const Body = ({className}) => {
@@ -32,8 +33,18 @@ const Body = ({className}) => {
         </Link >
       </div>
 
-      {/* categories */}
-      <Categories />
+      <div className='content'>
+        <div className='sectionContainer__wrapper'>
+          <div className='sectionContainer'>
+            {/* categories */}
+            <Categories />
+            <Seo/>
+          </div>
+          
+        </div>
+        
+        </div>
+    
   </body>
   )
 }
