@@ -31,9 +31,40 @@ div {
     display: block;
 }
 
-button, input, [tabindex] {
-    border: none;
-    outline: none;
+img {
+    vertical-align: middle;
+    border-style: none;
 }
 
 
+
+.sectionContainer__3a, 
+.sectionContent__2 {
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.sectionContainer__3a {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.sectionContent__2 {
+    padding: 0 12px;
+}
+
+@media (min-width: 768px) {
+    .sectionContent__2 {
+        padding: 0 36px;
+    }
+}
+
+@media (min-width: 992px) {
+    .rootContainer__1 {
+        // margin-top: -88px;
+    }
+    .sectionContent__2 {
+        padding: 0 40px;
+    }
+}

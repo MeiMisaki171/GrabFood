@@ -1,0 +1,144 @@
+@media (min-width: 992px) {
+    .sectionContent__2 {
+        padding: 0 40px;
+    }
+}
+
+.headerMainRow__3 {
+    height: 48px;
+}
+
+@media (min-width: 768px) {
+    .headerMainRow__3 {
+        height: 88px;
+    }
+}
+
+@media (min-width: 992px) {
+    .headerMainRow__3 {
+        height: 88px;
+    }
+}
+
+.headerMainRow__3,
+.logoLink__3 {
+    color: inherit;
+    position: relative;
+}
+
+.headerMainRow__3,
+.logoLink__3,
+.logoImage {
+    width: 90px;
+    height: auto;
+    opacity: 1;
+    -webkit-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+}
+
+@media (min-width: 768px) {
+    .headerMainRow__3,
+    .logoLink__3,
+    .logoImage {
+        width: auto;
+        height: 50px;
+    }
+} 
+
+.btnGroupCol1__2 {
+    height: 28px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+@media (min-width: 768px) {
+    .btnGroupCol1__2 {
+        height: 40px;
+    }
+}
+
+
+
+
+
+.foodCart-Btn-Wrapper__1,
+.foodCart-Btn,
+.foodCart-Icon__2 {
+    background-image: url(../../../../../assets/image/icons/cart_icon.svg);
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    width: 16px;
+    height: 16px;
+}
+
+.foodCart-Btn-Wrapper__1,
+.foodCart-Btn,
+.isEmpty,
+.foodCart-Icon__2 {
+    background-image: url(../../../../../assets/image/icons/cart_icon.svg)
+}
+
+.foodCart-Btn-Wrapper__1,
+.foodCart-Btn,
+.foodCart-Text {
+    display: block;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 6px;
+}
+
+.foodCart-Btn-Wrapper__1,
+.foodCart-Btn,
+.isEmpty,
+.foodCart-Text {
+    display: none;
+}
+
+.foodCart-Btn-Wrapper__1 {
+    position: relative;
+    height: 28px;
+}
+
+@media (min-width: 768px) {
+    .foodCart-Btn-Wrapper__1 {
+        height: 40px;
+    }
+}
+
+.foodCart-Btn-Wrapper__1,
+.foodCart-Btn {
+    border-radius: 4px;
+    border: 1px solid #00b14f;
+    background-color: #00b14f;
+    padding: 0 8px;
+    height: 100%;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .foodCart-Btn-Wrapper__1,
+    .foodCart-Btn {
+        padding: 0 12px;
+    }
+}
+
+.foodCart-Btn-Wrapper__1,
+.foodCart-Btn,
+.isEmpty {
+    min-width: 28px;
+    border: 1px solid #f0efef;
+    background-color: #fff;
+}
+
+@media (min-width: 768px) {
+    .foodCart-Btn-Wrapper__1,
+    .foodCart-Btn, 
+    .isEmpty {
+        min-width: 40px;
+    }
+}
